@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap");
+
+:root {
+  --heading-font: "Larken Bold";
+  --primary-font: "Quicksand", sans-serif;
+  --accent-font: "Playwrite GB S", sans-serif;
+  --desktop: 1440px;
+  --tablet: 768px;
+  --mobile: 480px;
+}
+
+@font-face {
+  font-family: "Larken Bold";
+  src: url("../assets/EllenLuff - Larken Bold.otf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--primary-font);
+}
+
+header {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2e2e2e;
+  border-radius: 2px;
+
+  margin-top: 2px;
+
+  transition: all 0.25s ease-in-out;
+}
+a:hover::before {
+  width: 100%;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border: none;
+  cursor: pointer;
+  font-family: var(--accent-font);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
