@@ -1,0 +1,110 @@
+.article-page {
+  margin: auto;
+  width: min(100%, 1000px);
+
+  padding: 5vh 5vw;
+}
+.article-page h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.article-page h4 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-page .constitution-statement {
+  padding-left: 1.5rem;
+}
+.article-page .constitution-statement li {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+.article-page p {
+  font-weight: 500;
+}
+
+.article-page .conversation-container {
+  margin: 5vh 0;
+  padding: 2.5vw;
+  background: #2e2e2e40;
+  border-radius: 1rem;
+}
+.article-page .conversation-header {
+  font-size: 2rem;
+  margin-bottom: 2.5vw;
+  text-align: center;
+}
+.article-page .conversation {
+  padding: 1rem;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.article-page .conversation li {
+  width: 80%;
+  padding: 1rem;
+  font-weight: 500;
+  list-style: none;
+  border-radius: 10px;
+  background: #2e2e2e;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  animation: fadeInOut alternate;
+  animation-timeline: view();
+}
+.article-page .conversation li span {
+  font-size: 0.7rem;
+  text-transform: capitalize;
+  padding: 2px;
+  padding-left: 0;
+
+  position: relative;
+  width: fit-content;
+}
+.article-page .conversation li span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+}
+
+.article-page .conversation .person-1 {
+  border-bottom-left-radius: 0;
+  text-align: left;
+
+  align-self: flex-start;
+}
+.article-page .conversation .person-2 {
+  border-bottom-right-radius: 0;
+  align-self: flex-end;
+}
+
+@keyframes fadeInOut {
+  20% {
+    opacity: 0.5;
+    scale: 1;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    opacity: 1;
+    scale: 1.1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+  }
+  80% {
+    opacity: 0.5;
+    scale: 1;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+}

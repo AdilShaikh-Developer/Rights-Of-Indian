@@ -1,0 +1,232 @@
+{
+  "constitution": [
+    {
+      "part": 1,
+      "title": "The Union and It's Territory",
+      "articles": [
+        {
+          "number": 1,
+          "title": "Name and territory of the Union"
+        },
+        {
+          "number": 2,
+          "title": "Admission or establishment of new states"
+        },
+        {
+          "number": "2A",
+          "title": "Sikkim to be associated with the Union.—Omitted."
+        },
+        {
+          "number": 3,
+          "title": "Formation of new states and alteration of areas, boundaries, or names of existing states"
+        },
+        {
+          "number": 4,
+          "title": "Laws made under Articles 2 and 3 to provide for the amendment of the First and the Fourth Schedule and supplemental, incidental, and consequential matters"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Citizenship",
+      "articles": [
+        {
+          "number": 5,
+          "title": "Citizenship at the commencement of the Constitution"
+        },
+        {
+          "number": 6,
+          "title": "Rights of citizenship of certain persons who have migrated to India from Pakistan"
+        },
+        {
+          "number": 7,
+          "title": "Rights of citizenship of certain migrants to Pakistan"
+        },
+        {
+          "number": 8,
+          "title": "Rights of citizenship of certain persons of Indian origin residing outside India"
+        },
+        {
+          "number": 9,
+          "title": "Persons voluntarily acquiring citizenship of a foreign state not to be citizens"
+        },
+        {
+          "number": 10,
+          "title": "Continuance of the rights of citizenship"
+        },
+        {
+          "number": 11,
+          "title": "Parliament to regulate the right of citizenship by law"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Fundamental Rights",
+      "articles": [
+        {
+          "number": 12,
+          "title": "Definition of the State"
+        },
+        {
+          "number": 13,
+          "title": "Laws inconsistent with or in derogation of fundamental rights"
+        },
+        {
+          "number": 14,
+          "title": "Equality before law"
+        },
+        {
+          "number": 15,
+          "title": "Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth"
+        },
+        {
+          "number": 16,
+          "title": "Equality of opportunity in matters of public employment"
+        },
+        {
+          "number": 17,
+          "title": "Abolition of untouchability"
+        },
+        {
+          "number": 18,
+          "title": "Abolition of titles"
+        },
+        {
+          "number": 19,
+          "title": "Protection of certain rights regarding freedom of speech, etc."
+        },
+        {
+          "number": 20,
+          "title": "Protection in respect of conviction for offenses"
+        },
+        {
+          "number": 21,
+          "title": "Protection of life and personal liberty"
+        },
+        {
+          "number": "21A",
+          "title": "Right to education"
+        },
+        {
+          "number": 22,
+          "title": "Protection against arrest and detention in certain cases"
+        },
+        {
+          "number": 23,
+          "title": "Prohibition of traffic in human beings and forced labor"
+        },
+        {
+          "number": 24,
+          "title": "Prohibition of employment of children in factories, etc."
+        },
+        {
+          "number": 25,
+          "title": "Freedom of conscience and free profession, practice, and propagation of religion"
+        },
+        {
+          "number": 26,
+          "title": "Freedom to manage religious affairs"
+        },
+        {
+          "number": 27,
+          "title": "Freedom as to payment of taxes for promotion of any particular religion"
+        },
+        {
+          "number": 28,
+          "title": "Freedom as to attendance at religious instruction or religious worship in certain educational institutions"
+        },
+        {
+          "number": 29,
+          "title": "Protection of interests of minorities"
+        },
+        {
+          "number": 30,
+          "title": "Right of minorities to establish and administer educational institutions"
+        },
+        {
+          "number": 32,
+          "title": "Remedies for enforcement of rights conferred by this Part"
+        },
+        {
+          "number": 33,
+          "title": "Power of Parliament to modify the rights conferred by this Part in their application to forces, etc."
+        },
+        {
+          "number": 34,
+          "title": "Restriction on rights conferred by this Part while martial law is in force in any area"
+        },
+        {
+          "number": 35,
+          "title": "Legislation to give effect to the provisions of this Part"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Directive Principles of State Policy",
+      "articles": [
+        {
+          "number": 36,
+          "title": "Definition."
+        },
+        {
+          "number": 37,
+          "title": "Application of the principles contained in this Part."
+        },
+        {
+          "number": 38,
+          "title": "State to secure a social order for the promotion of welfare of the people."
+        },
+        {
+          "number": 39,
+          "title": "Certain principles of policy to be followed by the State."
+        },
+        {
+          "number": 40,
+          "title": "Organisation of village panchayats."
+        },
+        {
+          "number": 41,
+          "title": "Right to work, to education and to public assistance in certain cases."
+        },
+        {
+          "number": 42,
+          "title": "Provision for just and humane conditions of work and maternity relief."
+        },
+        {
+          "number": 43,
+          "title": "Living wage, etc., for workers."
+        },
+        {
+          "number": 44,
+          "title": "Uniform civil code for the citizens."
+        },
+        {
+          "number": 45,
+          "title": "Provision for early childhood care and education to children below the age of six years."
+        },
+        {
+          "number": 46,
+          "title": "Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes and other weaker sections."
+        },
+        {
+          "number": 47,
+          "title": "Duty of the State to raise the level of nutrition and the standard of living and to improve public health."
+        },
+        {
+          "number": 48,
+          "title": "Organisation of agriculture and animal husbandry."
+        },
+        {
+          "number": 49,
+          "title": "Protection of monuments and places and objects of national importance."
+        },
+        {
+          "number": 50,
+          "title": "Separation of judiciary from executive."
+        }
+      ]
+    }
+  ]
+}
