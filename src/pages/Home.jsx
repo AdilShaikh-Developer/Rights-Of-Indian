@@ -87,22 +87,14 @@ const Home = () => {
         />
         <div className="tagline">
           {taglines.map((tagline, i) => (
-            // <Fragment key={i}>
-            <h1
+            <div
               key={i}
               className="hinglish-tagline"
               style={index === i ? { display: "block" } : { display: "none" }}
             >
               {tagline.Hinglish}
-            </h1>
+            </div>
           ))}
-          {/* <h1
-            className="english-tagline"
-            style={index === i ? { display: "block" } : { display: "none" }}
-          >
-            {tagline.English}
-          </h1> */}
-          {/* </Fragment> */}
         </div>
       </div>
       <div className="intro">

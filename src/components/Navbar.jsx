@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import "../stylesheets/components.css";
 
-const Navbar = () => {
+const Navbar = ({ user }) => {
   const [isMenu, setIsMenu] = useState(false);
   return (
     <header>
@@ -38,9 +38,15 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to={"/profile"} onClick={() => setIsMenu(false)}>
-              Profile
-            </Link>
+            {user ? (
+              <Link to={"/profile"} onClick={() => setIsMenu(false)}>
+                Profile
+              </Link>
+            ) : (
+              <Link to={"/authentication"} onClick={() => setIsMenu(false)}>
+                Sign In/Sign Up
+              </Link>
+            )}
           </li>
         </ul>
       </nav>
